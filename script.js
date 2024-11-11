@@ -11,3 +11,10 @@ function updateTime() {
 
 setInterval(updateTime, 1000);
 updateTime();
+
+// Abrir aplicativos
+let myWindows;
+
+function openWindows() {
+    myWindows = window.open('https://www.google.com.br/?hl=pt-BR', '', 'width=900, height=900');
+}
